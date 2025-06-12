@@ -83,3 +83,6 @@ Weiter optimiert. Button für automatische Bewässerung, Footer, CSS
 
 18. Mai
 HTML + CSS grundsätzlich fertiggestellt. Vorbereitungen für Datenbankverlinkung getroffen.
+
+12.Juni
+Resetbutton für Reservoir eingefügt und Berechungen im PHP vorgenommen für den Füllstand.
