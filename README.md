@@ -85,4 +85,5 @@ Weiter optimiert. Button für automatische Bewässerung, Footer, CSS</li>
 HTML + CSS grundsätzlich fertiggestellt. Vorbereitungen für Datenbankverlinkung getroffen.</li>
 
 <li>12. Juni:
-Resetbutton für Reservoir eingefügt und Berechungen im PHP vorgenommen für den Füllstand.</li>
+Resetbutton für Reservoir eingefügt und Berechungen im PHP vorgenommen für den Füllstand.
+Onboard LED Alarm für niedrigen Füllstand initiert.</li>
