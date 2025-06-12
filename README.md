@@ -19,33 +19,33 @@ Die Instruktionen helfen auch Erziehungsberechtigten bei der Betreuung. Sei es m
 ![Webseite](https://github.com/user-attachments/assets/bbe35d82-7b20-402f-ab87-3767d146c2d5)
 
 ### Schritt für Schritt:
-Konzeptarbeit wie Figma Mockup und Screen Flow sollte zuerst erledigt werden.
+<li>Konzeptarbeit wie Figma Mockup und Screen Flow sollte zuerst erledigt werden.</li>
 
-Bedürfnissanylse durch Interviews und Austausch mit der Zielgruppe.
+<li>Bedürfnissanylse durch Interviews und Austausch mit der Zielgruppe.</li>
 
-Projektstruktur anlegen für HTML, CSS, PHP und IMG in Visual Studio Code.
+<li>Projektstruktur anlegen für HTML, CSS, PHP und IMG in Visual Studio Code.</li>
 
-HTML Datei codieren und Webseite nach Figma Vorlage erstellen. Design mit CSS erstellen und Bilder einfügen.
+<li>HTML Datei codieren und Webseite nach Figma Vorlage erstellen. Design mit CSS erstellen und Bilder einfügen.</li>
 
-Diagramme mit chart.js einbinden und designen. Für die Mindestlinie ist ein separates chart.js plugin erforderlich. (chartjs-plugin-annotation)
+<li>Diagramme mit chart.js einbinden und designen. Für die Mindestlinie ist ein separates chart.js plugin erforderlich. (chartjs-plugin-annotation)</li>
 
-Daten schonmal in php simulieren als Vorbereitung für die gesammelten Daten.
+<li>Daten schonmal in php simulieren als Vorbereitung für die gesammelten Daten.</li>
 
-Datenbank vorbereiten mit den passenden Parameter.
+<li>Datenbank vorbereiten mit den passenden Parameter.</li>
 
-Microcontroller nach Steckplan vorbereiten.
+<li>Microcontroller nach Steckplan vorbereiten.</li>
 
 ![Steckplan](https://github.com/user-attachments/assets/1d67e73a-674d-4bef-81c6-55896895571f)
 
-Über den passenden Port den Code zur Messung und Bewässerung aufspielen.
+<li>Über den passenden Port den Code zur Messung und Bewässerung aufspielen.</li>
 
 ![Mikrocontrollercode](https://github.com/user-attachments/assets/a4208e1a-702a-4096-a42b-0897d9b750de)
 
-Gewächshaus für die Aufnahme des Mikrocontrollers und die Sensoren vorbereiten. Optional kann ein Gehäuse für den Mikrocontroller 3D-gedruckt werden.
+<li>Gewächshaus für die Aufnahme des Mikrocontrollers und die Sensoren vorbereiten. Optional kann ein Gehäuse für den Mikrocontroller 3D-gedruckt werden.</li>
 
-Gesammelte Daten in die Datenbank hochladen.
+<li>Gesammelte Daten in die Datenbank hochladen.</li>
 
-Überprüfen des Resultats und allfällige Verbesserungen vornehmen.
+<li>Überprüfen des Resultats und allfällige Verbesserungen vornehmen.</li>
 
 ![Komponentenplan](https://github.com/user-attachments/assets/99441069-93c1-4a09-bf30-f852e9e6ab83)
 
@@ -75,14 +75,14 @@ Cédric:
 
 
 ### Protokoll:
-16. Mai
-Aufsetzen HTML und erste CSS arbeiten
+<li>16. Mai:
+Aufsetzen HTML und erste CSS arbeiten</li>
 
-18. Mai
-Weiter optimiert. Button für automatische Bewässerung, Footer, CSS
+<li>18. Mai:
+Weiter optimiert. Button für automatische Bewässerung, Footer, CSS</li>
 
-18. Mai
-HTML + CSS grundsätzlich fertiggestellt. Vorbereitungen für Datenbankverlinkung getroffen.
+<li>18. Mai:
+HTML + CSS grundsätzlich fertiggestellt. Vorbereitungen für Datenbankverlinkung getroffen.</li>
 
-12.Juni
-Resetbutton für Reservoir eingefügt und Berechungen im PHP vorgenommen für den Füllstand.
+<li>12. Juni:
+Resetbutton für Reservoir eingefügt und Berechungen im PHP vorgenommen für den Füllstand.</li>
