@@ -352,6 +352,29 @@ document.getElementById('resetButton').addEventListener('click', function () {
 });
 </script>
 
+<script>
+  function checkAlarmStatus() {
+    fetch('alarm.php')
+      .then(response => response.json())
+      .then(data => {
+        const wasserstand = data.wasserstand;
+        const alarm = data.alarm;
+
+        // Optional: Wasserstand anzeigen oder loggen
+        console.log("Aktueller Wasserstand:", wasserstand, "ml");
+
+        // Alarmbild & Text aktualisieren
+        triggerAlarm(alarm);
+      })
+      .catch(err => console.error("Fehler beim Abrufen des Alarmstatus:", err));
+  }
+
+  // Rufe es auch regelmäßig auf
+  setInterval(checkAlarmStatus, 5000);
+  checkAlarmStatus(); // Initialer Aufruf
+</script>
+
+
 </body>
 
 </html>
