@@ -4,7 +4,8 @@
 
 Grüner Daumen KIDS bringt den Kindern durch entdecken und beobachten bei, was Pflanzen zum wachsen brauchen. Der Fokus ist dabei auf die Bewässerung gelegt. Daten zur Bewässerung werden auf der Webseite über den Zeitraum von einer Woche angezeigt. Die Daten beinhalten die Menge der Bewässerung in Milliliter, die Häufigkeit der Bewässerung und den Füllstand des Wasserreservoirs. Falls der Füllstand zu tief ausfällt, wird das Kind über die Webseite darüber informiert oder über die LED am Mikrokontroller. Auf der Webseite erscheinen dann Intruktionen zum Befüllen des Reservoirs. So können die Kinder ein Verständnis für den Wasserbedarf von Setzlingen und Samen in Gewächshäuser erlernen.
 
-![Screen Flow](https://github.com/user-attachments/assets/047a1295-1c59-4d43-a455-b64765efa54c)
+![Flowchart](https://github.com/user-attachments/assets/2754ac25-5756-4e80-86ca-7939beaef645)
+*Flowchart*
 
 ### Entwicklungsprozess:
 Als wir uns die Box mit den Sensoren und Aktoren angesehen haben, wussten wir noch nicht so genau, was wir damit machen sollten. Wir wollten etwas, was tatsächlich einen Nutzen bietet und wir dann auch nicht nur als Lernprojekt benutzen könnten. Uns kam dann die Idee eines Gewächshauses, weil wir dort sehr viele Sensoren und auch Aktoren verwenden können. Nur die Zielgruppe von 50+ hat noch nicht gepasst, weswegen wir das Projekt als Lernumgebung für Kinder umsetzen wollten. So können die Kinder durch Beobachten lernen, wie viel Wasser ein Setzling benötigt, um zu wachsen oder einfach nur Spass am Entdecken und den eigenen Pflanzen haben.
@@ -16,7 +17,8 @@ Wir hatten verschiedene Sensoren in der Auswahl. So haben wir uns überlegt, ein
 Da unsere Zielgruppe Kinder sind, haben wir die Webseite bewusst sehr einfach gestaltet. Die Texte sollen den Lerneffekt erweitern, ohne zu weit ins Detail zu gehen. Auch haben wir die Warnungen und Meldungen deutlich dargestellt und mit klaren Instruktionen versehen.
 Die Instruktionen helfen auch Erziehungsberechtigten bei der Betreuung. Sei es mit dem Kind oder auch in Abwesenheit dessen.
 
-![Adobe Express - file](https://github.com/user-attachments/assets/8a9de563-e6f7-48c0-b56c-47c856c20c98)
+![Webseite](https://github.com/user-attachments/assets/0af57b97-be4e-4b6b-84de-298ef384e6ef)
+*Webseite*
 
 ### Schritt für Schritt:
 <li>Konzeptarbeit wie Figma Mockup und Screen Flow sollte zuerst erledigt werden.</li>
@@ -35,11 +37,13 @@ Die Instruktionen helfen auch Erziehungsberechtigten bei der Betreuung. Sei es m
 
 <li>Microcontroller nach Steckplan vorbereiten.</li>
 
-![Steckplan](https://github.com/user-attachments/assets/1d67e73a-674d-4bef-81c6-55896895571f)
+![Steckplan](https://github.com/user-attachments/assets/e24a97e0-cf14-49d7-9e59-1257d3f74d55)
+*Steckplan*
 
 <li>Über den passenden Port den Code zur Messung und Bewässerung aufspielen.</li>
 
-![Mikrocontrollercode](https://github.com/user-attachments/assets/a4208e1a-702a-4096-a42b-0897d9b750de)
+![Ardunio Code](https://github.com/user-attachments/assets/f2190a13-e532-4b87-8182-c4d8dc2ab92d)
+*Arduino Code*
 
 <li>Gewächshaus für die Aufnahme des Mikrocontrollers und die Sensoren vorbereiten. Optional kann ein Gehäuse für den Mikrocontroller 3D-gedruckt werden.</li>
 
@@ -48,6 +52,7 @@ Die Instruktionen helfen auch Erziehungsberechtigten bei der Betreuung. Sei es m
 <li>Überprüfen des Resultats und allfällige Verbesserungen vornehmen.</li>
 
 ![Komponentenplan](https://github.com/user-attachments/assets/99441069-93c1-4a09-bf30-f852e9e6ab83)
+*Komponentenplan*
 
 ### Inspirationen:
 Bei der Suche nach geeigneten Gewächshäusern für unser Projekt haben wir die Spielsets von Galileo entdeckt. Diese möchten auf dieselbe Weise den Kindern Wissen vermitteln und gehen dabei noch etwas mehr ins Detail oder sind auch oft etwas spezifizierter.
@@ -77,6 +82,12 @@ Physical Computing hat meinen Wissensstand nochmals viel breiter gestaltet als e
 
 Cédric:
 
+![Entstehungsbilder](https://github.com/user-attachments/assets/6cd9d34c-05c5-49ab-82ff-a02c4f2e3d85)
+*Entstehungsbilder*
+
+
+
+*Video des Projektes*
 
 ### Coding Protokoll:
 <li>16. Mai:
