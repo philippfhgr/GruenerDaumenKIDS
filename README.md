@@ -7,16 +7,16 @@ Grüner Daumen KIDS bringt den Kindern durch entdecken und beobachten bei, was P
 ![Screen Flow](https://github.com/user-attachments/assets/047a1295-1c59-4d43-a455-b64765efa54c)
 
 ### Entwicklungsprozess:
-Als wir uns die Box mit den Sensoren und Aktoren angesehen haben, wussten wir noch nicht so genau, was wir damit machen sollten. Wir wollten etwas, was effektiv einen Nutzen hat und wir theoretisch auch selbst benutzen würden, auch wenn wir nicht in die Zielgruppe fallen. Uns kam dann die Idee eines Gewächshauses, weil wir dort sehr viele Sensoren und auch Aktoren verwenden können. Nur die Zielgruppe von 50+ hat noch nicht gepasst, weswegen wir das Projekt als Lernumgebung für Kinder umsetzen wollten. So können die Kinder durch Beobachten lernen, wie viel Wasser ein Setzling benötigt, um zu wachsen oder einfach nur Spass am Entdecken und den eigenen Pflanzen haben.
+Als wir uns die Box mit den Sensoren und Aktoren angesehen haben, wussten wir noch nicht so genau, was wir damit machen sollten. Wir wollten etwas, was tatsächlich einen Nutzen bietet und wir dann auch nicht nur als Lernprojekt benutzen könnten. Uns kam dann die Idee eines Gewächshauses, weil wir dort sehr viele Sensoren und auch Aktoren verwenden können. Nur die Zielgruppe von 50+ hat noch nicht gepasst, weswegen wir das Projekt als Lernumgebung für Kinder umsetzen wollten. So können die Kinder durch Beobachten lernen, wie viel Wasser ein Setzling benötigt, um zu wachsen oder einfach nur Spass am Entdecken und den eigenen Pflanzen haben.
 
 ### Verworfenen Lösungsansätze:
-Wir hatten verschiedene Sensoren in der Auswahl. So haben wir uns überlegt, einen Kohlenstoffmonoxid Sensor einzubauen oder einen Helligkeitssensor, um das Tageslicht zu tracken. Durch die Interviews haben wir aber gelernt, dass das schon zu fortgeschritten ist für Kinder, weswegen wir uns auf die grundlegenden Bedürfnisse der Pflanzen fokussiert haben.
+Wir hatten verschiedene Sensoren in der Auswahl. So haben wir uns überlegt, einen Kohlenstoffmonoxid Sensor einzubauen oder einen Helligkeitssensor, um das Tageslicht zu tracken. Durch die Interviews haben wir aber gelernt, dass das schon zu fortgeschritten ist für Kinder. Weswegen wir uns auf die grundlegenden Bedürfnisse der Pflanzen fokussiert haben.
 
 ### Designentscheidung:
 Da unsere Zielgruppe Kinder sind, haben wir die Webseite bewusst sehr einfach gestaltet. Die Texte sollen den Lerneffekt erweitern, ohne zu weit ins Detail zu gehen. Auch haben wir die Warnungen und Meldungen deutlich dargestellt und mit klaren Instruktionen versehen.
 Die Instruktionen helfen auch Erziehungsberechtigten bei der Betreuung. Sei es mit dem Kind oder auch in Abwesenheit dessen.
 
-![Webseite](https://github.com/user-attachments/assets/bbe35d82-7b20-402f-ab87-3767d146c2d5)
+![Adobe Express - file](https://github.com/user-attachments/assets/8a9de563-e6f7-48c0-b56c-47c856c20c98)
 
 ### Schritt für Schritt:
 <li>Konzeptarbeit wie Figma Mockup und Screen Flow sollte zuerst erledigt werden.</li>
@@ -54,27 +54,31 @@ Bei der Suche nach geeigneten Gewächshäusern für unser Projekt haben wir die 
 Ein grosser Unterschied ist, dass unsere Lösung kein einmaliges Produkt ist und es kann immer wieder verwendet werden. Ausserdem bieten wir über die Webseite eine Visualisierung der gesammelten Daten über einen definierten Zeitraum.
 
 ### Known Bugs:
-Uns ist bewusst, dass die LED Anzeige nicht optimal ist und eine direktere Anzeige zum Beispiel per Bildschirm schöner wäre. Dort könnten auch gleich die Daten von der Webseite angezeigt und die Einstellungen zur Bewässerung getroffen werden. Ebenfalls würde sich eine App wohl besser eignen als eine Webseite.
+Wir haben die Hardware zu Beginn des Projekts getestet und den Code zumindest zum testen schon aufgespielt. Trotzdem sind wir kurz vor Schluss noch mit Hardare-Problemen geplagt worden. Die Pumpe hat teilweise entweder durchgehend gepumpt oder dann gar nicht mehr. Wir nehmen an, dass es am Sensor liegt aber genau können wir es nicht betiteln. Cédrics Vater hat beruflich viel mit Elektronik zu tun und ist privat leidenschaftlicher Modelbauer. Auch er kam leider auf keinen grünen Zweig. So sahen wir uns gedrungen mit Beispieldaten zu arbeiten.  
+Desweiteren ist uns bewusst, dass die LED Anzeige nicht optimal ist und eine direktere Anzeige zum Beispiel per Bildschirm schöner wäre. Dort könnten auch gleich die Daten von der Webseite angezeigt und die Einstellungen zur Bewässerung getroffen werden. Ebenfalls würde sich eine App wohl besser eignen als eine Webseite.
 
 ### Planung:
-Wir haben uns immer wieder Rückmeldungen zum aktuellen Stand gegeben. So konnten wir uns abstimmen und schon Vorbereitungen treffen, sobald die andere Person soweit ist. Mit dem Code für die Webseite hat Philipp zum Beispiel schon begonnen, bevor das Hosting überhaupt final stand. Das hat uns erlaubt, zeiteffizient und zuweilen unabhängig voneinander zu arbeiten.
+Wir haben uns immer wieder Rückmeldungen zum aktuellen Stand gegeben. So konnten wir uns abstimmen und schon Vorbereitungen treffen, sobald die andere Person soweit ist. Mit dem Code für die Webseite hat Philipp zum Beispiel schon begonnen, bevor das Hosting überhaupt final stand. Das hat uns erlaubt, zeiteffizient und zuweilen unabhängig voneinander zu arbeiten. Wir haben aber auch per Videoanruf zeitgleich am Projekt gearbeitet.
 
 ### Aufgabenverteilung:
-Im Unterricht haben wir die Konzeption und die ersten physical Computing Schritte zusammen gemacht. Danach haben wir aufgrund der physischen Grösse des Gewächshauses die Aufgaben aufgeteilt. Cédric hat die Webseite bereitgestellt, wofür Philipp den Code geschrieben hat. Cédric hat den physical Computing Teil übernommen und die Sensoren und Aktoren im Gewächshaus eingebaut. Die gesammelten Daten sind dann über den Code von Philipp auf der Webseite sichtbar geworden. Die Dokumentation wurde auch von Philipp erstellt.
+Im Unterricht haben wir die Konzeption und die ersten physical Computing Schritte zusammen gemacht. Danach haben wir aufgrund der physischen Grösse des Gewächshauses die Aufgaben aufgeteilt. Cédric hat die Webseite bereitgestellt, wofür Philipp den Code geschrieben hat. Cédric hat den physical Computing Teil übernommen und die Sensoren und Aktoren im Gewächshaus eingebaut. Die gesammelten Daten sollten dann über den Code von Philipp auf der Webseite sichtbar werden. Den Arduino Code haben wir zusammen geschrieben. Die Dokumentation wurde auch von Philipp erstellt.
 
 ### Hilfsmittel:
-CoPilot, ChatGPT und W3Schools haben wir zum Coden genutzt. Hilfreich waren auch die Folien aus dem Unterricht und natürlich der Präsenzunterricht an sich, welcher uns enorm beim physical Computing unterstützt hat.
+CoPilot, ChatGPT und W3Schools haben wir zum Coden genutzt. Cédrics Vater hat seine unterstützende Hand bei den Hardware-Problemen angeboten. Hilfreich waren auch die Folien aus dem Unterricht und natürlich der Präsenzunterricht an sich, welcher uns enorm beim physical Computing vorangebracht hat.
 
 ### Lerneffekt:
+
+Wir haben die letzten Tage vor der Abgabe eingeplant, um alle Puzzelstücke miteinander zu verbinden. Dass wir auf ein derart unlösbares Hardware-Problem stossen, haben wir aber nicht eingerechnet. Für ein nächstes Projekt würden wir definitiv am Ende noch mehr Zeit einplanen um wirklich alle Eventualitäten abzudecken. So hätten wir noch einen Ersatz organisieren können. Alternativ hätten wir auch früher reagieren können und es nicht noch so lange verzweifelt versuchen müssen. Dann hätten wir auch wieder mehr Zeit zur Verfügung für einen Ersatz. Alles in allem ist die Situation so für uns sehr unbefriedigend. Nach all den Stunden, Tagen und Wochen, die wir in dieses Projekt gesteckt haben, hätten wir es wirklich gerne zum laufen bekommen. Wir nehmen diesen Fehlschlag als Learning auf unseren Weg. Nichtsdestotrotz oder gerade deswegen haben wir beide wahrscheinlich noch mehr gelernt, als wenn alles geklappt hätte, weil wir uns bis ins Detail mit unserem Code und der Hardware auseinander setzen mussten.
+
 Philipp:
-Bei diesem Projekt ist mir aufgefallen, wie viel ich über die Semester schon beim Thema Coding gelernt habe. Ich brauche für eine Webseite nicht mehr vier Wochen, sondern eher vier Tage.
-Ich habe gelernt, welche Sensoren es gibt und wie diese funktionieren. Auch habe ich jetzt ein Verständnis für die Kommunikation zwischen Sensoren und Mikrocontroller. Das hat mir auch für das Projekt in Creative Technology geholfen, da dort für mich der Gedankenprozess ähnlich ist.
-Physical Computing hat meinen Wissensstand nochmals viel breiter gestaltet als er durch das Studium schon ist und ich denke, ich werde auch in Zukunft noch weiter davon profitieren.
+Bei diesem Projekt ist mir aufgefallen, wie viel ich über die Semester schon beim Thema Coding gelernt habe. Ich brauche für eine Webseite nicht mehr vier Wochen, sondern eher vier Tage und habe dann mehr Zeit für weiterführende Funktionen.
+Ich habe gelernt, welche verschiedenen Sensoren es gibt und wie diese funktionieren. Auch habe ich jetzt ein Verständnis für die Kommunikation zwischen Sensoren und Mikrocontroller. Das hat mir auch für das Projekt in Creative Technology geholfen, da dort für mich der Gedankenprozess ähnlich ist.
+Physical Computing hat meinen Wissensstand nochmals viel breiter gestaltet als er durch das Studium schon ist und Lücken zwischen der digitalen und analogen Welt geschlossen. Ich denke, ich werde auch in Zukunft noch weiter davon profitieren. 
 
 Cédric:
 
 
-### Protokoll:
+### Coding Protokoll:
 <li>16. Mai:
 Aufsetzen HTML und erste CSS arbeiten</li>
 
@@ -87,3 +91,12 @@ HTML + CSS grundsätzlich fertiggestellt. Vorbereitungen für Datenbankverlinkun
 <li>12. Juni:
 Resetbutton für Reservoir eingefügt und Berechungen im PHP vorgenommen für den Füllstand.
 Onboard LED Alarm für niedrigen Füllstand initiert.</li>
+
+<li>13. Juni:
+Arduino Code Finalisierung und troubleshooting Hardware.</li>
+
+<li>14. Juni: 
+Troubleshooting Tag 2.</li>
+
+<li>15. Juni:
+Troubleshooting Tag 3 und Finalisierung.</li>
