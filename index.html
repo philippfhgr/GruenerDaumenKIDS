@@ -147,7 +147,10 @@
     fetch('getData.php?chart=proTag')
       .then(response => response.json())
       .then(data => {
-        const labels = data.map(item => item.label);
+        const labels = data.map(item => {
+  const date = new Date(item.label);
+  return date.toLocaleDateString('de-DE', { weekday: 'short' });
+});
         const values = data.map(item => item.value);
 
         new Chart(document.getElementById("proTag"), {
@@ -182,11 +185,14 @@
     fetch('getData.php?chart=inML')
       .then(response => response.json())
       .then(data => {
-        const labels = data.map(item => item.label);
+        const labels = data.map(item => {
+  const date = new Date(item.label);
+  return date.toLocaleDateString('de-DE', { weekday: 'short' });
+});
         const values = data.map(item => item.value);
 
         new Chart(document.getElementById("inML"), {
-          type: "line",
+          type: "bar",
           data: {
             labels,
             datasets: [{
@@ -227,9 +233,9 @@
 
     function triggerAlarm(on) {
       isAlarmOn = on;
-      alarmImg.src = isAlarmOn ? "/img/on.png" : "/img/off.png";
+      alarmImg.src = isAlarmOn ? "/img/off.png" : "/img/on.png";
       alarmText.innerHTML = isAlarmOn
-        ? `Das Wasserreservoir hält das Wasser für die Pflanzen bereit. Damit diese immer genug Wasser haben, muss das Reservoir einen genug hohen Wasserstand vorweisen. Wenn der Wasserstand unter die rote Linie fällt, musst du das Reservoir unbedingt wieder auffüllen. Denke daran das Reservoir vor einem Urlaub oder wenn du längere Zeit von zuhause weg bist, nochmals bis zur Markierung am Reservoir aufzufüllen. So haben deine Pflanzen sicher genug Wasser. <strong style="color: red;">Dein Reservoir hat nicht mehr genügend Wasser. Fülle es umgehend bis zur Markierung auf.</strong>`
+        ? `Das Wasserreservoir hält das Wasser für die Pflanzen bereit. Damit diese immer genug Wasser haben, muss das Reservoir einen genug hohen Wasserstand vorweisen. Wenn der Wasserstand unter die rote Linie fällt, musst du das Reservoir unbedingt wieder auffüllen. Denke daran das Reservoir vor einem Urlaub oder wenn du längere Zeit von zuhause weg bist, nochmals bis zur Markierung am Reservoir aufzufüllen. So haben deine Pflanzen sicher genug Wasser. <strong style="color: red;">Dein Reservoir hat nicht mehr genügend Wasser. Fülle es umgehend bis zur Markierung auf und drücke dann auf den Knopf.</strong>`
         : `Das Wasserreservoir hält das Wasser für die Pflanzen bereit. Damit diese immer genug Wasser haben, muss das Reservoir einen genug hohen Wasserstand vorweisen. Wenn der Wasserstand unter die rote Linie fällt, musst du das Reservoir unbedingt wieder auffüllen. Denke daran das Reservoir vor einem Urlaub oder wenn du längere Zeit von zuhause weg bist, nochmals bis zur Markierung am Reservoir aufzufüllen. So haben deine Pflanzen sicher genug Wasser.`;
     }
 
@@ -245,13 +251,16 @@
       fetch('getData.php?chart=fuellstand')
         .then(response => response.json())
         .then(data => {
-          const labels = data.map(item => item.label);
+          const labels = data.map(item => {
+  const date = new Date(item.label);
+  return date.toLocaleDateString('de-DE', { weekday: 'short' });
+});
           const values = data.map(item => item.value);
 
           if (!fuellstandChart) {
             // Chart noch nicht existiert – erstelle neuen
             fuellstandChart = new Chart(chartElement, {
-              type: "line",
+              type: "bar",
               data: {
                 labels,
                 datasets: [{
@@ -327,7 +336,7 @@
 
     toggleButton.addEventListener('click', () => {
       isOn = !isOn;
-      toggleImage.src = isOn ? '/img/on.png' : '/img/off.png';
+      toggleImage.src = isOn ? '/img/off.png' : '/img/on.png';
       statusText.textContent = isOn
         ? 'Die automatische Bewässerung lauft wie geschmiert! Du musst nur den Füllstand im Auge behalten und das Wasser bei Bedarf nachfüllen. Giese deine Pflanzen auf keinen Fall von Hand. Zu viel Wasser kann deinen Pflanzen schaden!'
         : 'Die automatische Bewässerung ist ausgeschaltet. Jetzt bist du an der Reihe und musst die Pflanzen von Hand begiessen. Achte darauf nicht zu viel und nicht zu wenig Wasser zu geben.';
