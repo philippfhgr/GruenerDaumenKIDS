@@ -2,7 +2,7 @@
 
 # Grüner Daumen KIDS
 
-Grüner Daumen KIDS bringt den Kindern durch entdecken und beobachten bei, was Pflanzen zum wachsen brauchen. Der Fokus ist dabei auf die Bewässerung gelegt. Daten zur Bewässerung werden auf der Webseite über den Zeitraum von einer Woche angezeigt. Die Daten beinhalten die Menge der Bewässerung in Milliliter, die Häufigkeit der Bewässerung und den Füllstand des Wasserreservoirs. Falls der Füllstand zu tief ausfällt, wird das Kind über die Webseite darüber informiert oder über die LED am Mikrokontroller. Auf der Webseite erscheinen dann Intruktionen zum Befüllen des Reservoirs. So können die Kinder ein Verständnis für den Wasserbedarf von Setzlingen und Samen in Gewächshäuser erlernen.
+Grüner Daumen KIDS bringt den Kindern durch entdecken und beobachten bei, was Pflanzen zum wachsen brauchen. Der Fokus ist dabei auf die Bewässerung gelegt. Daten zur Bewässerung werden auf der Webseite über den Zeitraum von einer Woche angezeigt. Die Daten beinhalten die Menge der Bewässerung in Milliliter, die Häufigkeit der Bewässerung und den Füllstand des Wasserreservoirs. Falls der Füllstand zu tief ausfällt, wird das Kind über die Webseite darüber informiert oder über die LED am Mikrokontroller. Auf der Webseite erscheinen dann Intruktionen zum Befüllen des Reservoirs. So können die Kinder ein Verständnis für den Wasserbedarf von Setzlingen und Samen in Gewächshäuser erlernen. Webseite: https://cedrichochreuter.ch/
 
 ![Flowchart](https://github.com/user-attachments/assets/2754ac25-5756-4e80-86ca-7939beaef645)
 *Flowchart*
