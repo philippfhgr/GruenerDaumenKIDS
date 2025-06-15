@@ -80,13 +80,10 @@ Bei diesem Projekt ist mir aufgefallen, wie viel ich über die Semester schon be
 Ich habe gelernt, welche verschiedenen Sensoren es gibt und wie diese funktionieren. Auch habe ich jetzt ein Verständnis für die Kommunikation zwischen Sensoren und Mikrocontroller. Das hat mir auch für das Projekt in Creative Technology geholfen, da dort für mich der Gedankenprozess ähnlich ist.
 Physical Computing hat meinen Wissensstand nochmals viel breiter gestaltet als er durch das Studium schon ist und Lücken zwischen der digitalen und analogen Welt geschlossen. Ich denke, ich werde auch in Zukunft noch weiter davon profitieren. 
 
-Cédric:
-
 ![Entstehungsbilder](https://github.com/user-attachments/assets/6cd9d34c-05c5-49ab-82ff-a02c4f2e3d85)
 *Entstehungsbilder*
 
-
-
+https://github.com/user-attachments/assets/b81bc58e-c8df-41f4-82af-b46771410be2
 *Video des Projektes*
 
 ### Coding Protokoll:
@@ -104,7 +101,7 @@ Resetbutton für Reservoir eingefügt und Berechungen im PHP vorgenommen für de
 Onboard LED Alarm für niedrigen Füllstand initiert.</li>
 
 <li>13. Juni:
-Arduino Code Finalisierung und troubleshooting Hardware.</li>
+Arduino Code Finalisierung und Troubleshooting Hardware.</li>
 
 <li>14. Juni: 
 Troubleshooting Tag 2.</li>
